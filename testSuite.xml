@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SampleTestSuite" parallel="false">
+<!-- 	<listeners>
+	   <listener class-name="org.uncommons.reportng.HTMLReporter" />
+	    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners> -->
+  <test name="Tests">
+    <classes>
+      <class name="com.mercury.automation.commons.Bootstrap" />
+      <class name="com.mercury.auto.tests.FlightBookingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
